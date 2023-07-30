@@ -1,0 +1,5 @@
+RSetType 7
+R
+LoadFile firmware.bin 0x08000000
+VerifyBin firmware.bin 0x08000000
+exit
